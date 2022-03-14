@@ -1,0 +1,7 @@
+#+TITLE: README
+
+A simple celebration of Pi Day 2022 that utilises some things I find interesting about Lisp like HOFs and its ability to generate symbolic expressions (valid Lisp code) rather than just values.
+
+The code generates symbolic (Lisp) expressions which represent particular infinite expressions for the value of $\pi$, computed to an arbitrary depth. It then uses a library to convert that to a valid LaTeX form, as well as evaluating the expression to get a numeric approximation for $\pi$. It works best when viewed as LaTeX or a PDF, since the symbols and expressions are rendered properly.
+
+Since the project is written as a literate document, it's interspersed with some light rambling about the mathematics behind these approximations, which somebody hopefully finds interesting.
